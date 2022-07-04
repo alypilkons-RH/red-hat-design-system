@@ -1,4 +1,5 @@
-/* :host is the html-include element hosting this demo */
-:host {
-  display: block;
+#variants {
+  display: grid;
+  gap: var(--rh-space-lg, 1.0rem);
+  grid-template-columns: repeat(auto-fit, minmax(1px, auto));
 }
