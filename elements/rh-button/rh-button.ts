@@ -1,7 +1,7 @@
 import { html } from 'lit';
 import { customElement } from 'lit/decorators.js';
 
-import { BaseButton } from './BaseButton.js';
+import { BaseButton } from '@patternfly/pfe-button/BaseButton.js';
 import styles from './rh-button.css';
 
 /**
@@ -12,9 +12,9 @@ import styles from './rh-button.css';
 export class RhButton extends BaseButton {
   static readonly version = '{{version}}';
 
-  static readonly styles = [styles];
+  static readonly styles = [...BaseButton.styles, styles];
 
-  render() {
+  override render() {
     return html`
       <span id="container">
         <slot></slot>
