@@ -21,6 +21,14 @@ Sample Not Available
 
 {% section headline="Demo - Default" -%}
 
+{% demo headline="#FDDBDB Text" %}
+<rh-stat style="--rh-color-brand-red-on-dark: #FDDBDB;"></rh-stat>
+{% enddemo %}
+
+{% demo headline="#D2D2D2 Text" %}
+<rh-stat style="--rh-color-brand-red-on-dark: #D2D2D2;"></rh-stat>
+{% enddemo %}
+
 {% demo headline="No Icon or Title - Default" %}
 <rh-stat></rh-stat>
 {% enddemo %}
