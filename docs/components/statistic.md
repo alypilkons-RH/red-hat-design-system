@@ -21,12 +21,28 @@ Sample Not Available
 
 {% section headline="Demo - Default" -%}
 
-{% demo headline="#FDDBDB Text" %}
-<rh-stat style="--rh-color-brand-red-on-dark: #FDDBDB;"></rh-stat>
+{% demo headline="#FDDBDB Text - Dark Background" %}
+<pfe-band size="smallest" color-palette="darker">
+    <rh-stat style="--rh-color-brand-red-on-dark: #FDDBDB;"></rh-stat>
+</pfe-band>
 {% enddemo %}
 
-{% demo headline="#D2D2D2 Text" %}
-<rh-stat style="--rh-color-brand-red-on-dark: #D2D2D2;"></rh-stat>
+{% demo headline="#FDDBDB Text - Darkest Background" %}
+<pfe-band size="smallest" color-palette="darkest">
+    <rh-stat style="--rh-color-brand-red-on-dark: #FDDBDB;"></rh-stat>
+</pfe-band>
+{% enddemo %}
+
+{% demo headline="#D2D2D2 Text - Dark Background" %}
+<pfe-band size="smallest" color-palette="darker">
+    <rh-stat style="--rh-color-brand-red-on-dark: #D2D2D2;"></rh-stat>
+</pfe-band>
+{% enddemo %}
+
+{% demo headline="#D2D2D2 Text - Darkest Background" %}
+<pfe-band size="smallest" color-palette="darkest">
+    <rh-stat style="--rh-color-brand-red-on-dark: #D2D2D2;"></rh-stat>
+</pfe-band>
 {% enddemo %}
 
 {% demo headline="No Icon or Title - Default" %}
