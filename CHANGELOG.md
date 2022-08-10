@@ -1,5 +1,11 @@
 # @rhds/elements
 
+## 1.0.0-beta.16
+
+### Patch Changes
+
+- ac4ef8f: Footer: Main footer logo fills height first
+
 ## 1.0.0-beta.15
 
 ### Patch Changes
